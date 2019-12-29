@@ -25,7 +25,7 @@ function getWeather(getCityName) {
                 <div class="col-md-4 offset-4 mt-4 card">
                 <div class="card-body">
                     <h1>${weather.name}</h1>
-                    <span class="icon"><img src="http://openweatherapp.org/img/wn/${x.icon}.png /></span>
+                    <span class="icon"><img src="http://openweathermap.org/img/wn/${x.icon}.png" /></span>
                     <p><span>temp:</span>
                     <span class="temp">${weather.main.temp} &deg;c</span></p>
                     <p class="des float-left">${x.description}</p>
